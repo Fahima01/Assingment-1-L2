@@ -8,5 +8,3 @@ Why this is a Game Changer:
 Reusable Logic: You can write a single fetchData<T> function that works for your CS Ticket System dashboard, your user profiles, and your settings—all while knowing exactly what shape of data is coming back.
 
 Strict Safety: Because the type is "captured," TypeScript can prevent you from accessing a property that doesn't exist on that specific structure, even though the function itself is generic.
-
-It keeps your code DRY by eliminating the need to write separate, identical functions for every different interface in your project.
