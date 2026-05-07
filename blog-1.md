@@ -1,3 +1,5 @@
+Topic: How do Pick and Omit utility types prevent code duplication while creating specialized "slices" of a master interface? Discuss how this keeps your code DRY (Don't Repeat Yourself).
+
 When building large applications, we often create a big “master interface” like User, Product, or Ticket. But in many situations, we only need a few properties from that interface.
 
 Instead of creating many repeated interfaces manually, TypeScript provides two utility types:
