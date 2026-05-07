@@ -1,3 +1,5 @@
+Topic:How do Generics allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in?
+
 Generics act as "type variables" that let you write logic once and apply it to any data structure without losing type safety. Instead of using any—which essentially turns off TypeScript's brain—Generics capture the specific type the user provides and lock it in.
 
 Think of a Generic as a placeholder, like <T>. When you pass a Ticket object into a function, T becomes Ticket. If you pass a User, T becomes User.
